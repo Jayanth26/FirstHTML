@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Mock Canva PSP form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<h1> Mock Prospective PSP intake for Canva </h1>
+<p> Thank you for your interest in becoming a Print Service Provider for Canva! </p>
+<p> Please complete the following form so that we can better understand your company, facilities and print capabilities.</p><br>
+
+<h3>Company Information </h3>
+
+<form action="null" autocomplete="on">
+
+    <p> Company Name*</p>
+    <input type="text" id="cname" name="cname"><br><br>
+
+    <p> Company Website*</p>
+    <input type="text" id="cweb" name="cweb"><br><br>
+
+    <p> Year Founded*</p>
+    <input type="text" id="yfounded" name="yfounded"><br><br>
+
+    <p> Number of Employees*</p>
+    <input type="text" id="numemployee" name="numemployee"><br><br>
+
+    <p> Country* <br>
+    If you have multiple production sites, state the main site / Headquarters </p>
+    <input type="text" id="country" name="country"><br><br>
+ 
+    <p> State*</p>
+    <input type="text" id="state" name="state"><br><br>
+    
+    <p> Describe the company's corporate ownership structure*</p>
+	 <textarea name="corpstructure" rows="5" cols="70"></textarea>
+     
+    <p> Do you work with any other e-commerce Print On Demand brands? If Yes, please list.*</p>
+	<textarea name="corpstructure" rows="5" cols="70"></textarea>
+    
+	<p> Do you have a dedicated Account Manager per client or Customer Service Group?*</p>
+      <label for="AccMan"></label>
+  <select name="AccMan">
+    <option value="AccManYes">Yes</option>
+    <option value="AccManNo">No</option>
+  </select>
+  
+  	<p> Do you have any exclusivity clauses preventing you from working with Canva?*</p>
+      <label for="Exc"></label>
+  <select name="Exc">
+    <option value="ExcYes">Yes</option>
+    <option value="ExcNo">No</option>
+  </select>
+  
+  <p> <strong> Facility Details </strong> <br>
+  List the address for each print facility. Please note if the facilities are directly owned and operated.*</p>
+	<textarea name="corpstructure" rows="5" cols="70"></textarea>
+    
+    <p> How many shifts do you run?*</p>
+    <input type="shifts" id="shifts" name="shifts"><br><br>
+    
+    <p> List of Printing equipment* <br>
+    Please include all available Make/Model details.
+ </p>
+    <input type="equip" id="equip" name="equip"><br><br>
+    
+    <p> List of Bindery/Finishing equipment* <br>
+    Please include all available Make/Model details.
+ </p>
+    <textarea name="BindFinish" rows="5" cols="70"></textarea>
+    
+    <p> Can you UV Coat?*</p>
+      <label for="UV"></label>
+  <select name="UV">
+    <option value="UVYes">Yes</option>
+    <option value="UVNo">No</option>
+  </select>
+    
+    <p> <strong> Systems </strong> <br>
+    What order management system do you use?* <br>
+i.e. Site Flow, KornitX, Homegrown, Other</p>
+    <input type="orderman" id="orderman" name="orderman"><br><br>
+    
+     <p> Do you have an in-house development team?*</p>
+    <input type="DevTeam" id="DevTeam" name="DevTeam"><br><br>
+    
+    <p> <strong> Products </strong> <br>
+    Select the available products you can produce.* <br>
+If you select Other, please provide further detail in the final question of this form.</p>
+      <input type="checkbox" id="FlatPaperProd" name="FlatPaperProd" value="FlatPaperProducts">
+  <label for="FlatPaperProd"> Flat Paper Products (Business Cards, Postcards, Rack Card, Trifold, etc.)</label><br>
+  
+  <input type="checkbox" id="LargeFormat" name="LargeFormat" value="LargeFormat">
+  <label for="LargeFormat"> Large Format (Posters, Banners, Signs)</label><br>
+  
+  <input type="checkbox" id="BoundDocuments" name="BoundDocuments" value="BoundDocuments">
+  <label for="BoundDocuments"> Bound Documents (Photobooks, Notebooks, Wall Calendars)</label><br>
+  
+  <input type="checkbox" id="Drinkware" name="Drinkware" value="Drinkware">
+  <label for="Drinkware"> Drinkware (Mugs, Tumblers)</label><br>
+  
+  <input type="checkbox" id="StickerSheets" name="StickerSheets" value="StickerSheets">
+  <label for="StickerSheets"> Sticker Sheets</label><br>
+  
+  <input type="checkbox" id="Apparel" name="Apparel" value="Apparel">
+  <label for="Apparel"> Apparel</label><br>
+  
+  <input type="checkbox" id="Other" name="Other" value="Other">
+  <label for="Other"> Other</label><br>
+  
+<p> <strong> Production Volume & SLAs </strong> <br>
+    When do your facilities have a peak season?</p>
+      <input type="checkbox" id="Q1" name="Q1" value="Q1">
+  <label for="Q1"> Q1 (January, February, March)</label><br>
+  
+  <input type="checkbox" id="Q2 " name="Q2 " value="Q2 ">
+  <label for="Q2 "> Q2 (April, May June)</label><br>
+  
+  <input type="checkbox" id="Q3" name="Q3" value="Q3">
+  <label for="Q3"> Q3 (July, August, September)</label><br>
+  
+  <input type="checkbox" id="Q4 " name="Q4 " value="Q4 ">
+  <label for="Q4 "> Q4 (October, November, December)</label><br>
+  
+  <p> Will you be able to meet Canva's shipping SLAs?* <br>
+Products must be manufactured and shipped within the agreed Service Level Agreement (SLA): </p>
+  <img  src="img"<br>
+  
+  <p> Please review Canva's PSP shipping schedule <a href="https://docs.google.com/document/d/1V6iFnPR-qIezl-aUQNpDDSwax2tuYuyt/edit?usp=sharing&ouid=105012842438847456967&rtpof=true&sd=true">here</a>.</p>
+      <label for="PSPship"></label>
+  <select name="PSPship">
+    <option value="PSPshipYes">Yes</option>
+    <option value="PSPshipNo">No</option>
+  </select>
+ 
+ <p> How many orders do you produce a day, on average?*</p>
+    <input type="OrderPerDay" id="OrderPerDay" name="OrderPerDay"><br><br>
+    
+    <p> How many units do you produce a day, on average?*</p>
+    <input type="UnitPerDay" id="UnitPerDay" name="UnitPerDay"><br><br>
+    
+    <p> Can you support paper and gift product orders with a minimum quantity of 1?*</p>
+      <label for="MinOrder"></label>
+  <select name="MinOrder">
+    <option value="MinOrderYes">Yes</option>
+    <option value="MinOrderNo">No</option>
+  </select>
+  
+  <p> <strong> Packaging & Shipping </strong> <br>
+Are you willing to manage the entire supply chain of materials and packaging through approved sources?*
+</p>
+      <label for="PackShip"></label>
+  <select name="PackShip">
+    <option value="PackShipYes">Yes</option>
+    <option value="PackShipNo">No</option>
+  </select>
+  
+   <p> Can you package and ship individual customer orders in Canva branded packaging?* </p>
+      <label for="CanvaPackShip"></label>
+  <select name="CanvaPackShip">
+    <option value="CanvaPackShipYes">Yes</option>
+    <option value="CanvaPackShipNo">No</option>
+  </select>
+  
+  <p> Can you consolidate multiple products into the same box?* </p>
+      <label for="Consolidate"></label>
+  <select name="Consolidate">
+    <option value="ConsolidateYes">Yes</option>
+    <option value="ConsolidateNo">No</option>
+  </select>
+  
+  <p> Do you provide same-day service?* </p>
+      <label for="SameDay"></label>
+  <select name="SameDay">
+    <option value="SameDayYes">Yes</option>
+    <option value="SameDayNo">No</option>
+  </select>
+  
+  <p> <strong> Compliance </strong> <br>
+What best describes your sustainability journey?*
+</p>
+      <label for="Compliance"></label>
+  <select name="Compliance">
+    <option value="NoComp">None, have not started</option>
+    <option value="SomeComp">Some understanding, no documentation</option>
+    <option value="ClearComp">Clear understanding, sustainability programs in place</option>
+    <option value="NetZero">Net-Zero</option>
+    
+  </select>
+  
+  <p> Do you have a recycling program? If yes, please describe the program and provide details.* </p>
+    <textarea name="Recycling" rows="5" cols="70"></textarea>
+  
+  <p> Do you have a Workplace Safety Policy and Compliance program in place? When was the last audit?** </p>
+    <textarea name="WorkSafety" rows="5" cols="70"></textarea>
+  
+  <p> <strong> Contact Information </strong> <br>
+  First Name*</p>
+    <input type="text" id="fname" name="fname"><br><br>
+    
+     <p> Last Name*</p>
+    <input type="text" id="lname" name="lname"><br><br>
+    
+    <p> Email Address*</p>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <p> Job Title*</p>
+    <input type="JobTitle" id="JobTitle" name="JobTitle"><br><br>
+    
+    <p> <strong> Additional Information </strong> <br>
+  How did you first learn about Canva Print, and where did you receive this form?* </p>
+    <input type="info" id="info" name="info"><br><br>
+    
+    <p> Is there any additional information you would like us to know? </p>
+    <textarea name="WorkSafety" rows="5" cols="70"></textarea><br><br><br>
+    
+    <input type="submit" value="Submit">
+
+  </form>
+
+<p> Feel Free to submit passwords through Jayanth Forms.👍<br>
+Report abuse <br>
+Terms•Privacy
+
+
+</body>
+</html>
+
