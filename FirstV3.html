@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mock Canva PSP form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h1> Mock Prospective PSP intake for Canva </h1>
+<p> Thank you for your interest in becoming a Print Service Provider for Canva! </p>
+<p> Please complete the following form so that we can better understand your company, facilities, and print capabilities.</p><br>
+
+<h3>Company Information </h3>
+
+<form action="null" autocomplete="on">
+    <table>
+        <tr>
+            <td>Company Name*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtCompName" name="txtCompName"></td>
+        </tr>
+        <tr>
+            <td>Company Website*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtCompWebsite" name="txtCompWebsite"></td>
+        </tr>
+        <tr>
+            <td>Year Founded*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtYearFounded" name="txtYearFounded"></td>
+        </tr>
+        <tr>
+            <td>Number of Employees*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtNumEmployees" name="txtNumEmployees"></td>
+        </tr>
+        <tr>
+            <td>Country* <br> If you have multiple production sites, state the main site / Headquarters </td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtCountry" name="txtCountry"></td>
+        </tr>
+        <tr>
+            <td>State*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtState" name="txtState"></td>
+        </tr>
+        <tr>
+            <td>Describe the company's corporate ownership structure*</td>
+        </tr>
+        <tr>
+            <td><textarea name="taCorpStructure" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td>Do you work with any other e-commerce Print On Demand brands? If Yes, please list.*</td>
+        </tr>
+        <tr>
+            <td><textarea name="taOtherEcommerce" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td>Do you have a dedicated Account Manager per client or Customer Service Group?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selAccMan">
+                    <option value="accManYes">Yes</option>
+                    <option value="accManNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Do you have any exclusivity clauses preventing you from working with Canva?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selExclusivity">
+                    <option value="exclusivityYes">Yes</option>
+                    <option value="exclusivityNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Facility Details</strong> <br> List the address for each print facility. Please note if the facilities are directly owned and operated.*</td>
+        </tr>
+        <tr>
+            <td><textarea name="taFacilityAddress" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td>How many shifts do you run?*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtShifts" name="txtShifts"></td>
+        </tr>
+        <tr>
+            <td>List of Printing equipment* <br> Please include all available Make/Model details.</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtPrintingEquipment" name="txtPrintingEquipment"></td>
+        </tr>
+        <tr>
+            <td>List of Bindery/Finishing equipment* <br> Please include all available Make/Model details.</td>
+        </tr>
+        <tr>
+            <td><textarea name="taBinderyEquipment" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td>Can you UV Coat?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selUvCoat">
+                    <option value="uvYes">Yes</option>
+                    <option value="uvNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Systems</strong> <br> What order management system do you use?* <br> i.e. Site Flow, KornitX, Homegrown, Other</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtOrderMan" name="txtOrderMan"></td>
+        </tr>
+        <tr>
+            <td>Do you have an in-house development team?*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtDevTeam" name="txtDevTeam"></td>
+        </tr>
+        <tr>
+            <td><strong>Products</strong> <br> Select the available products you can produce.* <br> If you select Other, please provide further detail in the final question of this form.</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="idChkFlatPaperProd" name="chkFlatPaperProd" value="flatPaperProducts">
+                <label for="idChkFlatPaperProd">Flat Paper Products (Business Cards, Postcards, Rack Card, Trifold, etc.)</label><br>
+                <input type="checkbox" id="idChkLargeFormat" name="chkLargeFormat" value="largeFormat">
+                <label for="idChkLargeFormat">Large Format (Posters, Banners, Signs)</label><br>
+                <input type="checkbox" id="idChkBoundDocuments" name="chkBoundDocuments" value="boundDocuments">
+                <label for="idChkBoundDocuments">Bound Documents (Photobooks, Notebooks, Wall Calendars)</label><br>
+                <input type="checkbox" id="idChkDrinkware" name="chkDrinkware" value="drinkware">
+                <label for="idChkDrinkware">Drinkware (Mugs, Tumblers)</label><br>
+                <input type="checkbox" id="idChkStickerSheets" name="chkStickerSheets" value="stickerSheets">
+                <label for="idChkStickerSheets">Sticker Sheets</label><br>
+                <input type="checkbox" id="idChkApparel" name="chkApparel" value="apparel">
+                <label for="idChkApparel">Apparel</label><br>
+                <input type="checkbox" id="idChkOther" name="chkOther" value="other">
+                <label for="idChkOther">Other</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Production Volume & SLAs</strong> <br> When do your facilities have a peak season?</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="idChkQ1" name="chkQ1" value="q1">
+                <label for="idChkQ1">Q1 (January, February, March)</label><br>
+                <input type="checkbox" id="idChkQ2" name="chkQ2" value="q2">
+                <label for="idChkQ2">Q2 (April, May June)</label><br>
+                <input type="checkbox" id="idChkQ3" name="chkQ3" value="q3">
+                <label for="idChkQ3">Q3 (July, August, September)</label><br>
+                <input type="checkbox" id="idChkQ4" name="chkQ4" value="q4">
+                <label for="idChkQ4">Q4 (October, November, December)</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Will you be able to meet Canva's shipping SLAs?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selPspShip">
+                    <option value="pspShipYes">Yes</option>
+                    <option value="pspShipNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>How many orders do you produce a day, on average?*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtOrderPerDay" name="txtOrderPerDay"></td>
+        </tr>
+        <tr>
+            <td>How many units do you produce a day, on average?*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtUnitPerDay" name="txtUnitPerDay"></td>
+        </tr>
+        <tr>
+            <td>Can you support paper and gift product orders with a minimum quantity of 1?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selMinOrder">
+                    <option value="minOrderYes">Yes</option>
+                    <option value="minOrderNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Packaging & Shipping</strong> <br> Are you willing to manage the entire supply chain of materials and packaging through approved sources?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selPackShip">
+                    <option value="packShipYes">Yes</option>
+                    <option value="packShipNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Can you package and ship individual customer orders in Canva branded packaging?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selCanvaPackShip">
+                    <option value="canvaPackShipYes">Yes</option>
+                    <option value="canvaPackShipNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Can you consolidate multiple products into the same box?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selConsolidate">
+                    <option value="consolidateYes">Yes</option>
+                    <option value="consolidateNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Do you provide same-day service?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selSameDay">
+                    <option value="sameDayYes">Yes</option>
+                    <option value="sameDayNo">No</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Compliance</strong> <br> What best describes your sustainability journey?*</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="selCompliance">
+                    <option value="noComp">None, have not started</option>
+                    <option value="someComp">Some understanding, no documentation</option>
+                    <option value="clearComp">Clear understanding, sustainability programs in place</option>
+                    <option value="netZero">Net-Zero</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Do you have a recycling program? If yes, please describe the program and provide details.*</td>
+        </tr>
+        <tr>
+            <td><textarea name="taRecycling" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td>Do you have a Workplace Safety Policy and Compliance program in place? When was the last audit?**</td>
+        </tr>
+        <tr>
+            <td><textarea name="taWorkSafety" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td><strong>Contact Information</strong> <br> First Name*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtFirstName" name="txtFirstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtLastName" name="txtLastName"></td>
+        </tr>
+        <tr>
+            <td>Email Address*</td>
+        </tr>
+        <tr>
+            <td><input type="email" id="idTxtEmail" name="txtEmail"></td>
+        </tr>
+        <tr>
+            <td>Job Title*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtJobTitle" name="txtJobTitle"></td>
+        </tr>
+        <tr>
+            <td><strong>Additional Information</strong> <br> How did you first learn about Canva Print, and where did you receive this form?*</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="idTxtInfo" name="txtInfo"></td>
+        </tr>
+        <tr>
+            <td>Is there any additional information you would like us to know?</td>
+        </tr>
+        <tr>
+            <td><textarea name="taAdditionalInfo" rows="5" cols="70"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+
+<p>Feel Free to submit passwords through Jayanth Forms.👍<br>
+Report abuse <br>
+Terms•Privacy</p>
+
+</body>
+</html>
